@@ -1,0 +1,41 @@
+header{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 20px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.logo{
+    width: 100px;
+    margin-left: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.4s ease all;
+}
+.nav-link:hover{
+    color: #cfcfcf;
+    transition: 0.4s ease all;
+}
+.text-left{
+    margin-top: 150px;
+    display: block;
+    align-content: center;
+}
+.btn-home{
+    background-color: none;
+    border: 2px solid #674188;
+    color: white;
+    font-weight: 600;
+    }
+    .btn-home:hover{
+        border: 2px solid #9d01c9;
+        color: white;
+        transition: 0.5s all;
+    }

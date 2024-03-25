@@ -1,0 +1,49 @@
+#recomend{
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+}
+.p-recomend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+
+}
+.card-recomendacao {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 24px 14px rgba(0, 0, 0, 0.096);
+    width: 350px;
+    max-height: 300px;
+    margin-top: 40px;
+  }
+
+  .card-recomendacao .card-body {
+    padding: 20px;
+  }
+
+  .card-recomendacao .nome {
+    font-weight: 600;
+  }
+
+  .card-recomendacao .cargo {
+    font-weight: 500;
+    margin-top: -10px;
+  }
+
+  .card-recomendacao .descricao {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .img-recomend {
+    display: block;
+    margin: 0 auto;
+    margin-top: -75px; /* centralizar a imagem */
+    width: 100px; /* ajuste o tamanho conforme necessário */
+    height: 100px; /* ajuste o tamanho conforme necessário */
+    border-radius: 100%; /* tornar a imagem circular */
+  }

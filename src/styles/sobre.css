@@ -1,0 +1,74 @@
+.sobre {
+    background-color: #FFF5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.img-fluid {
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.445);
+    margin-top: 40px;
+}
+
+.purple-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: #b800ed;
+    opacity: 0.5;
+    z-index: -1;
+    transform: skewX(-13deg);
+}
+
+.sobre-dir {
+    display: flex; /* Torna o container um flex container */
+    flex-direction: column; /* Empilha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-top: 150px;
+}
+
+.text-sobre {
+    color: #674188;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.p-sobre {
+    color: black;
+    text-align: center;
+    max-width: 400px;
+    font-weight: 300;
+}
+
+.underline {
+    border-bottom: 3px solid #674188;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+ion-icon {
+    font-size: 35px;
+    padding: 20px;
+    color: #674188;
+    cursor: pointer;
+}
+
+.animated-icon {
+    transition: transform 0.4s;
+}
+
+.animated-icon:hover {
+    transform: translateY(-5px);
+}

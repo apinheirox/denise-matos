@@ -1,0 +1,22 @@
+.img-missao{
+    width: 450px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.h2-missao{
+    color: #674188;
+    font-weight: 600;
+}
+.text-missao{
+    margin-top: 60px;
+}
+.p-missao{
+    font-weight: 500;
+}
+.circle-image {
+    position: absolute;
+    top: 25%;
+    margin-left: 70px;
+    max-width: 100%; /* ajuste o tamanho conforme necessário */
+    height: auto; /* ajuste o tamanho conforme necessário */
+}
