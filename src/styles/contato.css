@@ -1,0 +1,166 @@
+#contato {
+    padding-top: 100px; /* Adiciona espaço acima da seção */
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Ajusta a margem superior */
+    max-width: 1000px; /* Limita a largura máxima */
+}
+
+.contato-esq {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.contato-esq p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.circle2{
+    margin-top: -18px;
+}
+.contato-esq div {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Altera a direção para coluna vertical */
+}
+ol {
+    list-style-type: circle;
+    margin-left: 20px;
+    
+}
+ol li{
+    font-size: 15px;
+}
+.icon-cont {
+    font-size: 44px;
+    color: black;
+}
+
+.btn-cont {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #B800ED;
+    color: white;
+    display: flex; /* Adiciona display flex */
+    transition: 0.6s all;
+}
+.btn-cont:hover {
+    background-color: #674188;
+    transition: 0.9s ease all;
+    color: white;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #97979759;
+    width: 450px; /* Largura do formulário */
+    height: 550px;
+    box-shadow: 10px 10px 5px #00000018;
+    display: flex; /* Adiciona display flex */
+    flex-direction: column; /* Altera a direção para coluna vertical */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+.form-group textarea{
+    max-height: 100px;
+  }
+
+  .form-group ::placeholder{
+    font-size: 15px;
+    color: #ba00ed5d;
+  }
+
+.text-cont {
+    color: #674188;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.linha-5 {
+    width: 300px;
+}
+
+.p-cont {
+    color: black;
+    font-weight: 500;
+    max-width: 300px;
+}
+
+.contato-dir {
+    display: flex;
+    justify-content: flex-end; /* Alinha o formulário à direita */
+}
+
+.contato-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+
+
+.icon-cont {
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: transform 0.4s;
+    margin: 0px 20px;
+}
+
+.icon-cont:hover {
+    transform: translateY(-5px);
+}
+
+.icon-mail,
+.icon-call,
+.icon-instagram {
+    color: #674188;
+    margin-left: -20px; /* Define a cor das redes sociais */
+}
+.circle{
+    text-align: right;
+    justify-content: right;
+    margin-right: -200px;
+    margin-top: -400px;
+}
+
+@media (max-width: 767px) { /* Estilos para telas menores */
+    #contato {
+        padding-top: 20px;
+        margin: auto; /* Centraliza horizontalmente */
+        margin-top: 50px; /* Ajusta a margem superior */
+        padding: 0 20px; /* Adiciona um espaçamento lateral */
+    }
+    .contato-esq div{
+        align-items: center;
+        justify-content: center ;
+    }
+    .contato-esq h1 {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato-esq p {
+        font-size: 14px;
+        
+    }
+
+    .contato-esq ion-icon {
+        font-size: 20px;
+    }
+
+    .contato-dir {
+        margin-top: 20px;
+        justify-content: flex-start; /* Alinha o formulário ao início */
+    }
+
+    form {
+        width: auto; /* Define a largura automática para preencher toda a largura do contêiner */
+        max-width: 100%; /* Define a largura máxima para a largura do contêiner */
+    }
+}
+
+

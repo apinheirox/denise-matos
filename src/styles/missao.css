@@ -1,3 +1,6 @@
+#missao{
+    margin-bottom: 100px;
+}
 .img-missao{
     width: 450px;
     margin-left: 60px;
@@ -20,3 +23,4 @@
     max-width: 100%; /* ajuste o tamanho conforme necessário */
     height: auto; /* ajuste o tamanho conforme necessário */
 }
+

@@ -1,0 +1,27 @@
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+footer .container{
+    margin-top: 50px;
+}
+  .footer-links li {
+    list-style-type: none;
+  }
+
+  .footer-links li a , footer .container {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .footer-links li a:hover {
+    color: #f8f9fa;
+  }
+  .text-foot{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  

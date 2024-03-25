@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/servicos.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./styles/magica.css">
     <link rel="stylesheet" href="./styles/missao.css">
     <link rel="stylesheet" href="./styles/recomendacoes.css">
+    <link rel="stylesheet" href="./styles/contato.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
 
@@ -33,7 +35,7 @@
                         <li class="nav-item link-li"><a class="nav-link" href="#sobre">SOBRE MIM</a></li>
                         <li class="nav-item link-li"><a class="nav-link" href="#servico">SERVIÇOS</a></li>
                         <li class="nav-item link-li"><a class="nav-link" href="#recomendacoes">RECOMENDAÇÕES</a></li>
-                        <li class="nav-item link-li"><a class="nav-link" href="#">CONTATO</a></li>
+                        <li class="nav-item link-li"><a class="nav-link" href="#contato">CONTATO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -157,11 +159,11 @@
     </section>
     <!--SECTION MISSÃO, VISÃO % VALORES-->
     <section id="missao" class="container">
+        <h1 class="text-center text-parceiro text-m">Missão, Visão & Valores</h1>
+        <div class="d-flex justify-content-center">
+            <div class="underline linha-2"></div>
+        </div>
         <div class="row">
-            <h1 class="text-center text-parceiro">Missão, Visão & Valores</h1>
-            <div class="d-flex justify-content-center">
-                <div class="underline linha-4"></div>
-            </div>
             <div class="col-md-6 text-missao">
                 <div>
                     <h2 class="h2-missao">Missão</h2>
@@ -183,52 +185,195 @@
         </div>
     </section>
     <!--SECTION RECOMENDAÇÕES-->
-    <section id="recomendacoes">
-        <h1 class="text-center text-parceiro">Recomendações</h1>
-        <div class="d-flex justify-content-center">
-            <div class="underline linha-4"></div>
+    <section id="recomendacoes" class="mt-5">
+        <div>
+            <h1 class="text-center text-recomend">Recomendações</h1>
+            <div class="d-flex justify-content-center">
+                <div class="underline linha-4"></div>
+            </div>
+            <p class="p-recomend">Aqui estão alguns depoimentos que refletem suas experiências comigo:</p>
         </div>
-        <p class="text-center p-recomend">Aqui estão alguns depoimentos que refletem suas experiências comigo:</p>
-        <div class="container mt-5">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card card-recomendacao">
-                  <div class="card-body">
-                    <img src="/images/Recomend2.jpeg" class="img-recomend" alt="">
-                    <p class="descricao">Denise é uma profissional maravilhosa! É atenciosa e cuidadosa com as atividades que se propõe a fazer, muito comprometida com resultados, bastante comunicativa o que facilita o relacionamento interpessoal.</p>
-                    <hr>
-                    <p class="nome text-center">Lana Barreto</p>
-                    <p class="cargo text-center">Administração, Recursos Humanos</p>
-                  </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/Recomend1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Maria do Carmo Pereira</h4>
+                                    <p>Business Partner RH</p>
+                                    <p class="card-text">Denise realiza trabalhos como Analista Comportamental e Coaching de Carreira, excelente para os jovens. Ajuda- os a identificar seus talentos e traçar estratégias de como se recolocar no mercado. Super Recomendo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/recomend2.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Lana Barreto</h4>
+                                    <p>Administração, Recursos Humanos</p>
+                                    <p class="card-text">Denise é uma profissional maravilhosa! É atenciosa e cuidadosa com as atividades que se propõe a fazer, muito comprometida com resultados, bastante comunicativa o que facilita o relacionamento interpessoal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/recomend3.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Maria Tereza Pamponet</h4>
+                                    <p>Business Partner RH</p>
+                                    <p class="card-text">Denise é um grande exemplo de uma pessoa que está sempre pronta para aprender coisas novas, curiosa e sempre muito dedicada no que faz. Foco, determinação e disciplina fazem parte da vida dessa pessoa que está sempre se reinventando.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Adicione mais cards de recomendações aqui conforme necessário -->
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card card-recomendacao">
-                  <div class="card-body">
-                    <img src="/images/Recomend1.jpeg" class="img-recomend" alt="">
-                    <p class="descricao">Denise realiza trabalhos como Analista Comportamental e Coaching de Carreira, excelente para os jovens. Ajuda-os a identificar seus talentos e traçar estratégias de como se recolocar no mercado. Super recomendo.</p>
-                    <hr>
-                    <p class="nome text-center">Maria do Carmo Pereira</p>
-                    <p class="cargo text-center">Business Partner RH</p>
-                  </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/recomend4.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Alex Ramos</h4>
+                                    <p>Consultor de RH e negócios</p>
+                                    <p class="card-text">Denisde matos é uma excelente consultora de RH, tendo perfil generalista e com atuação em treinamentos, Re S como tambem em desenvolvimento de pessoas, profissional capacitada e que sempre busca se aperfeiçoar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/recomend5.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Vanessa Boulhosa</h4>
+                                    <p>Analista de RH</p>
+                                    <p class="card-text">Eu sempre fiquei admirada com a habilidade de Denise de comandar uma reunião e convencer as pessoas de suas idéias até mesmo pessoas que estavam inicialmente com idéias completamente diferentes, uma ótima profissional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/images/recomend6.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Ana S.</h4>
+                                    <p>Gestão de RH</p>
+                                    <p class="card-text">Denise trabalha de uma forma muito analítica, forma que desenvolve as aptidões que estão guardadas. Ela usa a criatividade para liderar sua equipe, com bastante motivação e desafios. Ela é uma profissional extremamente comprometida.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Adicione mais cards de recomendações aqui conforme necessário -->
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card card-recomendacao">
-                  <div class="card-body">
-                    <img src="/images/Recomend3.jpeg" class="img-recomend" alt="">
-                    <p class="descricao">Denise é um grande exemplo de uma pessoa que está sempre pronta para aprender coisas novas, curiosa e sempre muito dedicada no que faz. Foco, determinação e disciplina fazem parte da vida dessa pessoa.</p>
-                    <hr>
-                    <p class="nome text-center">Maria Tereza Pamponet</p>
-                    <p class="cargo text-center">Business Partner RH</p>
-                  </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next icon-5" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icon-2" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+    
+    
+    <section id="contato" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contato-esq">
+                    <h1 class="text-cont">Entre em Contato</h1>
+                    <div class="d-flex justify-content-left">
+                        <div class="underline linha-5"></div>
+                    </div>
+                    <p class="p-cont">Entre em contato para alavancar sua carreira!</p>
+                    <p class="p-cont">Como Eu Posso Ajudar?</p>
+                    <ol>
+                        <li class="p-cont">Coaching de Carreira Individualizado</li>
+                        <li class="p-cont">Avaliação de Perfil Profissional</li>
+                        <li class="p-cont">Orientação para Mudança de Carreira</li>
+                        <li class="p-cont">Preparação para Entrevistas e Processos Seletivos</li>
+                    </ol>
                 </div>
-              </div>
+            </div>
+            <div class="col-md-6 dir">
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" class="form-control" id="telefone" placeholder="Telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="E-mail" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-cont">Enviar</button>
+                    <!-- Centralize o contato-info -->
+                    <div class="contato-info d-flex justify-content-center">
+                        <ion-icon name="mail-outline" class="icon-cont icon-mail"></ion-icon>
+                        <ion-icon name="call-outline" class="icon-cont icon-call"></ion-icon>
+                        <ion-icon name="logo-instagram" class="icon-cont icon-instagram"></ion-icon>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Imagem movida para a posição totalmente à direita -->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="/images/Circle-1.png" class="circle float-right" alt="">
+            </div>
+        </div>
+        <div class="col-md-2 mt-2">
+            <img src="/images/Circle-2.png" class="circle2 float-right" alt="">
+        </div>
+    </section>
+    
+    <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5 class="text-foot">Links Úteis</h5>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#recomendacoes">Recomendações</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="text-foot">Redes Sociais</h5>
+              <ul class="footer-links">
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="text-foot">Contato</h5>
+              <p>Email: denisematosrh@gmail.com</p>
+              <p>Telefone: +55 (71) 9 8519-7223</p>
             </div>
           </div>
-    </section>
+          <hr>
+          <p>&copy; 2024 Woodev. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./main.js"></script>
 </html>

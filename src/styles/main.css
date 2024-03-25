@@ -6,6 +6,7 @@
 }
 body{
     background-color: #FFF5F5;
+    overflow-x: hidden;
 }
 #home{
     background-image: url(/images/2tentativa.png);
