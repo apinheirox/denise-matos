@@ -1,9 +1,26 @@
 #servico {
-    display: flexbox;
+    margin-top: 100px;
+    background-color: #FFF5F5;
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+}
+
+.text-servicos {
+    color: #674188;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona espaço inferior */
+}
+
+.linha-2 {
+    border-bottom: 3px solid #674188;
+    width: 250px;
+}
+
+.servicos {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
-    background-color: #FFF5F5;
 }
 
 .img-servicos {
@@ -14,6 +31,7 @@
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.603);
     border: 2px solid #b800ed;
+    margin-bottom: 20px; /* Adiciona espaço inferior entre as imagens */
 }
 
 .h2-servicos {
@@ -26,21 +44,29 @@
     font-weight: 600;
 }
 
-.linha-2 {
-    width: 250px;
-}
+@media (max-width: 768px) {
+    .servicos{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .img-servicos {
+        width: 150px; /* Reduz a largura da imagem para telas menores */
+    }
 
-.text-servicos {
-    color: #674188;
-    font-weight: 700;
-    font-size: 35px;
-}
+    .h2-servicos {
+        font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
+    }
 
-.servicos {
-    display: flex;
-    flex-direction: row; /* Alterado para exibir os itens em linha */
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-}
+    .linha-2 {
+        width: 150px;
+    }
 
+    .text-servicos {
+        font-size: 30px; 
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+    }
+}

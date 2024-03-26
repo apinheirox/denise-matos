@@ -1,36 +1,64 @@
-.magica{
+.magica {
     background-color: #B800ED;
-    height: 500px;
-    border-radius: 5%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     width: 100%;
-}
-.div-container{
-    margin-bottom: 120px;
-}
-.text-magica{
-    color: white;
-    font-weight: 700;
-    font-size: 35px;
-}
-.h2-magica{
-    color: white;
-    font-weight: 600;
-}
-.linha-3{
-    border-color: #D7B9F1;
-    width: 400px;
+    height: 100%;
+    padding: 40px; /* Adiciona um espaço interno para telas menores */
+    flex-direction: column;
+    ; /* Altera a direção do layout para empilhar verticalmente */
 }
 
-.img-magica{
+.div-container {
+    margin-bottom: 10px;
+    padding: 50px
+}
+
+.text-magica {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona espaço inferior para telas menores */
+}
+
+.h2-magica {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255); /* Adiciona espaço inferior para telas menores */
+}
+
+.img-magica {
     width: 100%;
-    height: 100%;
-    margin: 0 5px;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
     border: 1px solid #acacac;
     border-radius: 30px;
     box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.493);
+}
+
+@media (min-width: 768px) {
+    .magica {
+        flex-direction: row; /* Restaura a direção do layout para exibir em linha */
+        padding: 0;
+        border-radius: 0%;
+        text-align: center;
+        height: 100%; /* Remove o espaço interno */
     }
+    .text-magica,
+    .h2-magica,
+    .img-magica {
+        margin-bottom: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center; /* Remove o espaço inferior */
+    }
+
+    .img-magica {
+        margin-right: 20px;/* Adiciona espaçamento à direita entre as imagens */
+    }
+}
