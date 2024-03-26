@@ -132,20 +132,15 @@ form {
         margin-top: 50px; /* Ajusta a margem superior */
         padding: 0 20px; /* Adiciona um espaçamento lateral */
     }
-    .contato-esq div{
-        align-items: center;
-        justify-content: center ;
-    }
+
     .contato-esq h1 {
         font-size: 20px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
-
+    .circle, .circle2{
+        display: none;
+    }
     .contato-esq p {
         font-size: 14px;
-        
     }
 
     .contato-esq ion-icon {

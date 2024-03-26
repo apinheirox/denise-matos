@@ -1,27 +1,46 @@
 footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 20px 0;
-    margin-top: 100px;
-  }
-footer .container{
-    margin-top: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: 50px; /* Reduzindo a margem superior para telas menores */
+  text-align: center; /* Centralizando o conteúdo */
 }
-  .footer-links li {
-    list-style-type: none;
-  }
 
-  .footer-links li a , footer .container {
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 15px;
-  }
+footer .container {
+  margin-top: 20px; /* Reduzindo a margem superior do container */
+}
 
-  .footer-links li a:hover {
-    color: #f8f9fa;
-  }
-  .text-foot{
-    font-size: 20px;
-    font-weight: 400;
+.footer-links li {
+  list-style-type: none;
+  margin-bottom: 10px; /* Adicionando espaço entre os itens da lista */
+}
+
+.footer-links li a,
+footer .container {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.footer-links li a:hover {
+  color: #f8f9fa;
+}
+
+.text-foot {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Ajustes para telas menores, como dispositivos móveis */
+@media (max-width: 767px) {
+  footer {
+      margin-top: 30px; /* Reduzindo a margem superior para telas menores */
   }
   
+  footer .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+}
