@@ -13,3 +13,12 @@ $(document).ready(function(){
         $('#carouselExampleControls').carousel('next');
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var sidebar = document.getElementById("sidebar");
+    var navbarToggler = document.querySelector(".navbar-toggler");
+
+    navbarToggler.addEventListener("click", function() {
+      sidebar.classList.toggle("show");
+    });
+  });

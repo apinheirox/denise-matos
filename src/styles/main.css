@@ -1,37 +1,55 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Sora", sans-serif;
 }
-body{
+
+body {
     background-color: #FFF5F5;
     overflow-x: hidden;
 }
-#home{
-    background-image: url(/images/2tentativa.png);
-    background-size: 100%;
-    background-position: 100% 35%;
-    background-repeat: no-repeat;
-    position: relative;
-    opacity: 0.9;
-    height: 650px;
-    width: 1340px;
+
+.text-left {
+    margin-top: 150px; /* Este valor pode precisar ser ajustado dependendo do layout desejado */
 }
 
-.text-principal{
+#home {
+    background-image: url(/images/2tentativa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-principal {
     color: white;
     font-weight: 800;
 }
-.text-secundario{
+
+.text-secundario {
     color: #b800ed;
     font-weight: 700;
     margin-top: -10px;
 }
-.paragrafo{
+
+.paragrafo {
     max-width: 400px;
     color: white;
     font-weight: 300;
 }
+@media (max-width: 768px) {
+    .text-principal {
+        font-size: 34px; /* Tamanho do texto principal para telas menores */
+    }
 
+    .text-secundario {
+        font-size: 20px; /* Tamanho do texto secundário para telas menores */
+    }
 
+    .paragrafo {
+        font-size: 15px; /* Tamanho do texto do parágrafo para telas menores */
+    }
+}
