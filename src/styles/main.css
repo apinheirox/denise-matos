@@ -40,11 +40,51 @@ body {
     color: white;
     font-weight: 300;
 }
+.section-hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  /* Defina o estilo quando a seção estiver visível */
+  .section-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .section-hidden-2 {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+  }
+
+  /* Defina o estilo quando a seção estiver visível */
+  .section-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .section-hidden-3 {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+  }
+
+  /* Defina o estilo quando a seção estiver visível */
+  .section-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 @media (max-width: 768px) {
     .text-principal {
         font-size: 34px; /* Tamanho do texto principal para telas menores */
     }
-
+    #home{
+        background-image: url(/images/FOTO\ DENISE\ 2.jpg);
+    }
+    .text-left{
+        margin-top: 200px;
+    }
     .text-secundario {
         font-size: 20px; /* Tamanho do texto secundário para telas menores */
     }

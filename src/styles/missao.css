@@ -1,26 +1,42 @@
-#missao{
+#missao {
     margin-bottom: 100px;
+    text-align: left; /* Centraliza todo o conteúdo */
 }
-.img-missao{
-    width: 450px;
-    margin-left: 60px;
+
+.img-missao {
+    width: 100%; /* Torna a imagem responsiva */
+    max-width: 450px; /* Limita o tamanho máximo da imagem */
     border-radius: 10px;
+    display: block; /* Garante que a imagem seja centralizada */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
 }
-.h2-missao{
+
+.h2-missao {
     color: #674188;
     font-weight: 600;
 }
-.text-missao{
+
+.text-missao {
     margin-top: 60px;
 }
-.p-missao{
+
+.p-missao {
     font-weight: 500;
 }
+
 .circle-image {
     position: absolute;
     top: 25%;
-    margin-left: 70px;
+    margin-left: 595px;
     max-width: 100%; /* ajuste o tamanho conforme necessário */
     height: auto; /* ajuste o tamanho conforme necessário */
 }
-
+@media (max-width: 768px){
+    #missao {
+        text-align: center; /* Centraliza todo o conteúdo */
+    }
+    .circle-image{
+        display: none;
+    }
+}

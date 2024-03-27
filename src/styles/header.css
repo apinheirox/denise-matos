@@ -10,7 +10,15 @@ header {
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF; /* Cor dos links quando não estão em estado de hover */
 }
-
+.navbar{
+  transition: 0.7s all;
+}
+.navbar.scrolled {
+  transition: 0.7s ease all;
+  background-color: #674188;
+  border-radius: 10px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.137);
+}
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #f3f3f3; /* Cor dos links ao passar o mouse sobre eles */
 }

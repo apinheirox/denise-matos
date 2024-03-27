@@ -1,6 +1,5 @@
 #servico {
-    margin-top: 100px;
-    background-color: #FFF5F5;
+    margin-top: 50px;
     padding: 20px; /* Adiciona um pouco de espaço interno */
 }
 
@@ -48,6 +47,10 @@
     .servicos{
         flex-wrap: wrap;
         gap: 30px;
+        
+    }
+    #servico{
+        margin-top: 100px;
     }
     .img-servicos {
         width: 150px; /* Reduz a largura da imagem para telas menores */
@@ -58,7 +61,8 @@
     }
 
     .linha-2 {
-        width: 150px;
+        width: 240px;
+        margin-left: 100px;
     }
 
     .text-servicos {
