@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   $(document).ready(function(){
     // Adicionando animação ao clicar nos links da barra de navegação
-    $("a").on('click', function(event) {
+    $("nav a").on('click', function(event) {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;

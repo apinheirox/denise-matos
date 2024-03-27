@@ -10,6 +10,7 @@
     display: block; /* Garante que a imagem seja centralizada */
     margin-left: auto; /* Centraliza horizontalmente */
     margin-right: auto; /* Centraliza horizontalmente */
+    margin-top: 150px;
 }
 
 .h2-missao {
@@ -38,5 +39,8 @@
     }
     .circle-image{
         display: none;
+    }
+    .img-missao{
+        margin-top: 10px;
     }
 }
