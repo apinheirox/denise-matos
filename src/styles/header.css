@@ -9,7 +9,8 @@ header {
   }
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
-    padding: 12px; /* Cor dos links quando não estão em estado de hover */
+    padding: 12px;
+    transition: 0.6s all; /* Cor dos links quando não estão em estado de hover */
 }
 .navbar{
   transition: 0.7s all;
@@ -21,7 +22,8 @@ header {
   box-shadow: 0px 5px rgba(0, 0, 0, 0.137);
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #f3f3f3; /* Cor dos links ao passar o mouse sobre eles */
+  transition: 0.6s ease all;
+    color: #E177FF; /* Cor dos links ao passar o mouse sobre eles */
 }
   .logo {
     width: 100px;
