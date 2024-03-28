@@ -11,21 +11,17 @@ body {
 }
 
 .text-left {
-    margin-top: 200px; /* Este valor pode precisar ser ajustado dependendo do layout desejado */
+    margin-top: 190px; /* Este valor pode precisar ser ajustado dependendo do layout desejado */
 }
 
-#home {
-    background-image: url(/images/2tentativa.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+#principal {
     height: 100vh;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .text-principal {
-    color: white;
+    color: #674188;
     font-weight: 800;
 }
 
@@ -34,10 +30,15 @@ body {
     font-weight: 700;
     margin-top: -10px;
 }
-
+.img-home{
+    max-width: 600px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
 .paragrafo {
     max-width: 400px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 300;
 }
 .section-hidden {
@@ -80,7 +81,7 @@ body {
     align-items: center;
     background-color: #b800ed;
     color: white;
-    height: 100px;
+    height: 150px;
   }
 #texto h1{
     align-items: center;
@@ -93,9 +94,6 @@ body {
     .text-principal {
         font-size: 34px; /* Tamanho do texto principal para telas menores */
     }
-    #home{
-        background-image: url(/images/FOTO\ DENISE\ 2.jpg);
-    }
     .text-left{
         margin-top: 200px;
     }
@@ -106,4 +104,11 @@ body {
     .paragrafo {
         font-size: 15px; /* Tamanho do texto do parágrafo para telas menores */
     }
+        .img-home {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        }
 }

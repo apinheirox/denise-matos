@@ -8,7 +8,7 @@ header {
 
   }
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFFFFF;
+    color: #000000;
     padding: 12px;
     transition: 0.6s all; /* Cor dos links quando não estão em estado de hover */
 }
@@ -17,8 +17,9 @@ header {
 }
 .navbar.scrolled {
   transition: 0.7s ease all;
-  background-color: #674188;
+  background-color: #ffffff;
   border-radius: 5px;
+  color: black;
   box-shadow: 0px 5px rgba(0, 0, 0, 0.137);
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -31,7 +32,7 @@ header {
   }
   .nav-link {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 15px;
     transition: 0.4s ease all;
@@ -43,9 +44,9 @@ header {
   }
   
   .btn-home {
-    background-color: transparent; /* Alterado de 'none' para 'transparent' */
-    border: 2px solid #674188;
-    color: white;
+    background-color: #674188; /* Alterado de 'none' para 'transparent' */
+    border: 1px solid #00000079;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
