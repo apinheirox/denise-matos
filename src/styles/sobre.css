@@ -55,7 +55,7 @@
 .icon {
     display: flex;
     justify-content: center;
-    
+    cursor: pointer;
 }
 
 ion-icon {
@@ -63,13 +63,10 @@ ion-icon {
     padding: 20px;
     color: #674188;
     cursor: pointer;
-}
-
-.animated-icon {
     transition: transform 0.4s;
 }
 
-.animated-icon:hover {
+ion-icon:hover {
     transform: translateY(-5px);
 }
 @media (max-width: 768px) {

@@ -1,6 +1,7 @@
 #servico {
     margin-top: -100px;
     padding: 20px; /* Adiciona um pouco de espaço interno */
+    text-align: center; /* Centraliza o conteúdo */
 }
 
 .text-servicos {
@@ -8,70 +9,97 @@
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 20px; /* Adiciona espaço inferior */
+    margin-bottom: 20px; 
+    margin-top: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .linha-2 {
     border-bottom: 3px solid #674188;
     width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .servicos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 50px;
+    margin: 20px auto; /* Centraliza a seção */
     padding: auto;
 }
 
-.img-servicos {
-    width: 160px;
-    margin: 0 0px;
-    padding: 15px;
-    background-color: #ffffff;
+.servico-card {
+    width: 350px;
+    height: 300px; /* Divide em 3 colunas */
+    padding: 20px;
+    box-sizing: border-box; /* Considera padding e border dentro do tamanho total */
+    text-align: center;
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.603);
-    border: 2px solid #b800ed;
-    margin-bottom: 10px; /* Adiciona espaço inferior entre as imagens */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.11);
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+.servico-card:hover {
+    transform: translateY(-5px);
+}
+
+.servico-card img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .h2-servicos {
     font-size: 20px;
     text-align: center;
     margin-top: 5px;
-    text-align: center;
     color: #674188;
     font-weight: 600;
 }
 
 @media (max-width: 768px) {
-    .servicos{
+    .servicos {
         flex-wrap: wrap;
         gap: 30px;
-        
+        text-align: center;
     }
-    #servico{
+
+    #servico {
         margin-top: 100px;
     }
+    .servico-card{
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
     .img-servicos {
-        width: 150px; /* Reduz a largura da imagem para telas menores */
+        width: 100px; /* Reduz a largura da imagem para telas menores */
     }
 
     .h2-servicos {
-        font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 18px; /* Reduz o tamanho da fonte para telas menores */
     }
 
     .linha-2 {
         width: 240px;
-        margin-left: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .text-servicos {
-        font-size: 30px; 
-        display: flex;
+        color: #674188;
+        font-weight: 700;
+        font-size: 30px;
         text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: -50px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
     }
 }
