@@ -11,11 +11,11 @@ body {
 }
 
 .text-left {
-    margin-top: 190px; /* Este valor pode precisar ser ajustado dependendo do layout desejado */
+    margin-top: 30vh;
+    text-align: center; /* Alinhar texto centralmente */
 }
 
 #principal {
-    height: 100vh;
     width: 100%;
     margin-bottom: 100px;
 }
@@ -23,6 +23,7 @@ body {
 .text-principal {
     color: #674188;
     font-weight: 800;
+    margin-top: 200px;
 }
 
 .text-secundario {
@@ -30,85 +31,64 @@ body {
     font-weight: 700;
     margin-top: -10px;
 }
-.img-home{
-    max-width: 600px;
-    width: 600px;
-    margin-top: 150px;
-    margin-left: 10px;
+
+.img-home {
+    max-width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 20px;
 }
+
 .paragrafo {
-    max-width: 400px;
+    max-width: 100%;
     color: rgb(0, 0, 0);
     font-weight: 300;
 }
-.section-hidden {
+
+.section-hidden,
+.section-hidden-2,
+.section-hidden-3 {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.7s ease, transform 0.7s ease;
-  }
+}
 
-  /* Defina o estilo quando a seção estiver visível */
-  .section-visible {
+.section-visible {
     opacity: 1;
     transform: translateY(0);
-  }
-  .section-hidden-2 {
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: opacity 0.5s ease, transform 0.7s ease;
-  }
-
-  /* Defina o estilo quando a seção estiver visível */
-  .section-visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
-
-  .section-hidden-3 {
-    opacity: 0;
-    transform: translateX(50px);
-    transition: opacity 0.5s ease, transform 0.7s ease;
-  }
-
-  /* Defina o estilo quando a seção estiver visível */
-  .section-visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  #texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #b800ed;
-    color: white;
-    height: 150px;
-  }
-#texto h1{
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    max-width: 600px;
 }
-@media (max-width: 768px) {
+
+
+
+@media (min-width: 768px) {
     .text-principal {
-        font-size: 34px; /* Tamanho do texto principal para telas menores */
+        font-size: 34px;
     }
-    .text-left{
-        margin-top: 200px;
+
+    .text-left {
+        margin-top: 190px;
     }
+
     .text-secundario {
-        font-size: 20px; /* Tamanho do texto secundário para telas menores */
+        font-size: 20px;
     }
 
     .paragrafo {
-        font-size: 15px; /* Tamanho do texto do parágrafo para telas menores */
+        font-size: 15px;
     }
-        .img-home {
-            display: block;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin: 0 auto; /* Centraliza a imagem horizontalmente */
-        }
+
+    .img-home {
+        max-width: 600px;
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    
+    #texto h1 {
+        max-width: 600px;
+    }
+    
+    #principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

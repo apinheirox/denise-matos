@@ -1,28 +1,36 @@
-.img-parceiros{
-    width: 150px;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 30px;
-    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.377);
-    margin: 40px;
-}
-.text-parceiro{
-    color: #674188;
-    font-weight: 700;
-    justify-content: center;
+#texto {
     display: flex;
-    margin-top: 100px;
-    font-size: 35px;
-}
-.linha-3{
-    width: 250px;
-    margin-left:10px;
-}
-#meus-parceiros{
-    display: block;
     justify-content: center;
     align-items: center;
+    background-color: #b800ed;
+    color: white;
+    padding: 20px; /* Adicionando um espaçamento interno */
+}
+
+#texto img {
+    margin-right: 10px; /* Adicionando espaçamento entre as imagens */
+}
+
+@media (max-width: 768px) {
+    #texto {
+        flex-wrap: wrap; /* Permitindo que as imagens quebrem para a próxima linha */
+        padding: 20px;
+    }
+
+    #texto img {
+        margin: 5px; /* Adicionando um espaçamento menor entre as imagens */
+        width: 100px; /* Reduzindo o tamanho das imagens para telas menores */
+    }
+    
+    #texto img:nth-child(2) {
+        width: 200px; /* Modificando o tamanho da segunda imagem para telas menores */
+    }
+    
+    #texto img:nth-child(3) {
+        width: 140px; /* Modificando o tamanho da terceira imagem para telas menores */
+    }
+    
+    #texto img:nth-child(4) {
+        width: 120px; /* Modificando o tamanho da quarta imagem para telas menores */
+    }
 }
