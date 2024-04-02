@@ -1,18 +1,26 @@
 $(document).ready(function(){
-    $('#carouselExampleControls').carousel({
-        interval: false // Impede a auto-rotação automática
-    });
+  // Inicialização do primeiro carrossel
+  $('#carouselExampleControls1').carousel({
+      interval: false // Impede a auto-rotação automática
+  });
 
-    // Navegação para a esquerda
-    $('.carousel-control-prev').click(function(){
-        $('#carouselExampleControls').carousel('prev');
-    });
+  // Inicialização do segundo carrossel
+  $('#carouselExampleControls2').carousel({
+      interval: false // Impede a auto-rotação automática
+  });
 
-    // Navegação para a direita
-    $('.carousel-control-next').click(function(){
-        $('#carouselExampleControls').carousel('next');
-    });
+  // Navegação para a esquerda no primeiro carrossel
+  $('.carousel-control-prev').click(function(){
+      $(this).closest('.carousel').carousel('prev');
+  });
+
+  // Navegação para a direita no primeiro carrossel
+  $('.carousel-control-next').click(function(){
+      $(this).closest('.carousel').carousel('next');
+  });
 });
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var sidebar = document.getElementById("sidebar");

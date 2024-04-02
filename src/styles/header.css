@@ -30,6 +30,9 @@ header {
     width: 100px;
     margin-left: 20px;
   }
+  .navbar-dark .navbar-nav .nav-link.current {
+    color: #000; /* Altere para a cor desejada */
+  }
   .nav-link {
     text-decoration: none;
     color: rgb(0, 0, 0);

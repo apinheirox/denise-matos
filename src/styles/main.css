@@ -8,6 +8,7 @@
 body {
     background-color: #FFF5F5;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .text-left {
