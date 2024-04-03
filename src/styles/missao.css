@@ -41,10 +41,17 @@
     #missao {
         text-align: center; /* Centraliza todo o conteúdo */
     }
+    .texto-missao{
+        font-size: 35px;
+    }
+    .h2-missao{
+        font-size: 30px;
+    }
     .circle-image{
         display: none;
     }
     .img-missao{
         margin-top: 10px;
+        width: 350px;
     }
 }

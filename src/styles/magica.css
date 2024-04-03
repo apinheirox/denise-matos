@@ -55,6 +55,7 @@
     .carousel-item .col-md-4 {
         flex: 0 0 100%; /* Ajuste para ocupar toda a largura em telas pequenas */
     }
+    
     .text-magica,
     .h2-magica,
     .img-magica {
