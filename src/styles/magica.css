@@ -44,7 +44,7 @@
     box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.493);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .magica {
         flex-direction: row; /* Restaura a direção do layout para exibir em linha */
         padding: 0;
@@ -52,10 +52,13 @@
         text-align: center;
         height: 100%; /* Remove o espaço interno */
     }
-    .carousel-item .col-md-4 {
-        flex: 0 0 100%; /* Ajuste para ocupar toda a largura em telas pequenas */
+    .text-magica{
+        font-size: 30px;
+        margin-bottom: 20px;
     }
-    
+    .h2-magica{
+        font-size: 17px;
+    }
     .text-magica,
     .h2-magica,
     .img-magica {
@@ -66,6 +69,8 @@
     }
 
     .img-magica {
-        margin-right: 20px;/* Adiciona espaçamento à direita entre as imagens */
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 100%;/* Adiciona espaçamento à direita entre as imagens */
     }
 }

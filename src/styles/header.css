@@ -54,7 +54,7 @@ header {
 }
 
 .btn-home:hover {
-    border: 2px solid #9d01c9;
+    border: 1px solid #9d01c9;
     color: white;
     transition: 0.5s all;
 }

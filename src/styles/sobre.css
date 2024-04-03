@@ -78,7 +78,7 @@ ion-icon:hover {
     .sobre-esq {
         width: 100%; /* Define a largura para 100% para ocupar toda a largura da tela */
         text-align: center;
-        margin-top: 20px; /* Centraliza o conteúdo *//* Adiciona um espaço de margem inferior */
+        margin-top: 0px; /* Centraliza o conteúdo *//* Adiciona um espaço de margem inferior */
     }
 
     .img-fluid {
@@ -87,7 +87,7 @@ ion-icon:hover {
     }
 
     .sobre-dir {
-        margin-top: 100px; /* Reduz a margem superior */
+        margin-top: 120px; /* Reduz a margem superior */
     }
 
     .text-sobre {
@@ -98,7 +98,7 @@ ion-icon:hover {
         width: 150px; /* Reduz o comprimento da linha de sublinhado */
     }
     .purple-square {
-        height: 400px;
+        height: 350px;
         margin-top: 0px; /* Reduz a altura do purple-square para telas menores */
     }
     ion-icon {

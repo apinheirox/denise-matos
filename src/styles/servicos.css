@@ -73,7 +73,7 @@
     }
 
     .servico-card {
-        width: calc(60% - 20px); /* Fazendo com que os itens ocupem metade da largura da tela */
+        width: calc(70% - 20px); /* Fazendo com que os itens ocupem metade da largura da tela */
         height: auto;
         margin: 10px auto; /* Centralizando os itens */
     }

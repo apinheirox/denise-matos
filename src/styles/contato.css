@@ -138,15 +138,14 @@ form {
     }
     .contato-esq h1 {
         font-size: 35px;
-        text-align: center;
+        text-align: left;
     }
     .circle, .circle2{
         display: none;
     }
     .contato-esq p, ol {
         font-size: 14px;
-        text-align: center;
-        margin-left: 60px;
+        text-align: left;
     }
 
     .contato-esq ion-icon {
