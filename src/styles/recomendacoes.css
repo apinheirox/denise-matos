@@ -13,6 +13,9 @@
     margin-bottom: 50px;
 
 }
+#recomend .carousel-indicators{
+  margin: -100px;
+}
 .text-recomend{
     color:#674188;
     font-weight: 700;
