@@ -65,6 +65,12 @@
   .text-recomend{
     font-size: 35px;
   }
+  .carousel-control-prev{
+    display: none;
+  }
+  .carousel-control-next{
+    display: none;
+  }
   .carousel-item .col-md-4 {
       width: 100%; /* Definindo a largura total para ocupar a largura do contêiner pai */
       max-width: 400px; /* Limitando a largura máxima dos cards */

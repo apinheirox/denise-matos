@@ -36,7 +36,7 @@ body {
 
 .img-home {
     max-width: 100%;
-    margin-top: 20vh;
+    margin-top: 25vh;
     margin-bottom: 20px;
 }
 
@@ -46,29 +46,12 @@ body {
     font-weight: 300;
 }
 
-.section-hidden,
-.section-hidden-2,
-.section-hidden-3 {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.section-visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
 
 @media (max-width: 768px) {
     .text-principal {
         font-size: 34px;
     }
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
+
     .text-left {
         margin-top: 190px;
     }
@@ -82,9 +65,10 @@ body {
     }
 
     .img-home {
-        max-width: 500px;
+        text-align: center; /* Centralizar horizontalmente */
+        max-width: 100%;
         margin-top: 100px;
-        margin-left: -20px;
+        margin: 0 auto; /* Centralizar horizontalmente */
     }
     
     #texto h1 {
