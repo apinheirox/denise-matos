@@ -76,6 +76,10 @@ header {
     .logo {
       width: 70px; /* Reduz a largura da logo para telas menores */
     }
+    .navbar-toggler-icon {
+      filter: invert(100%);
+      font-size: 25px; /* Inverte as cores do ícone */
+  }
     header {
       height: auto; /* Altura automática para acomodar o conteúdo */
       padding-bottom: 20px; /* Adiciona um espaço na parte inferior do header */
