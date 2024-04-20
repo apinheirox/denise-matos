@@ -14,23 +14,11 @@
     margin-top: 40px;
 }
 
-.purple-square {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 450px;
-    height: 470px;
-    background-color: #b800ed;
-    opacity: 0.5;
-    z-index: -1;
-    transform: skewX(-14deg);
-}
-
 .sobre-dir {
     display: flex; /* Torna o container um flex container */
     flex-direction: column; /* Empilha os itens verticalmente */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-top: 80px;
+    margin: 50px auto;
 }
 
 .text-sobre {
@@ -43,7 +31,7 @@
 .p-sobre {
     color: black;
     text-align: center;
-    max-width: 550px;
+    max-width: 750px;
     font-weight: 300;
     font-size: 15px;
 }
@@ -66,7 +54,7 @@ ion-icon {
     color: #674188;
     cursor: pointer;
     transition: transform 0.4s;
-    margin-top: -20px;
+    margin-top: -70px;
 }
 
 ion-icon:hover {

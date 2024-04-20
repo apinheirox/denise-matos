@@ -1,7 +1,6 @@
 #servico {
     padding: 20px; /* Adiciona um pouco de espaço interno */
     text-align: center;
-    background-color: #fff; /* Centraliza o conteúdo */
 }
 
 .text-servicos {
@@ -15,7 +14,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+#servico h3{
+    font-size: 23px;
+    color: #674188;
+}
 .linha-2 {
     border-bottom: 3px solid #674188;
     width: 350px;
