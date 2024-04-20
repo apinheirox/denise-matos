@@ -1,6 +1,7 @@
 #servico {
     padding: 20px; /* Adiciona um pouco de espaço interno */
     text-align: center;
+    margin-top: -100px;
 }
 
 .text-servicos {
