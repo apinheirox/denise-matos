@@ -1,6 +1,7 @@
 #missao {
     margin-bottom: 100px;
-    text-align: left; /* Centraliza todo o conteúdo */
+    text-align: left;
+    background-color: #fff; /* Centraliza todo o conteúdo */
 }
 .text-missao{
     display: grid;

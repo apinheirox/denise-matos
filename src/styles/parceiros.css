@@ -4,7 +4,8 @@
     align-items: center;
     background-color: #b800ed;
     color: white;
-    padding: 20px; /* Adicionando um espaçamento interno */
+    padding: 20px;
+    background-color: #fff; /* Adicionando um espaçamento interno */
 }
 
 #texto img {
