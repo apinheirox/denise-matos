@@ -5,9 +5,8 @@ footer {
   margin-top: 50px;
   text-align: center;
 }
-
-footer .container {
-  margin-top: 20px;
+footer .container{
+  margin-top: -200px;
 }
 
 .footer-links li {

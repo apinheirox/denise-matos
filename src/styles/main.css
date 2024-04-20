@@ -15,7 +15,10 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.roxo{
+    color: #674188;
+    font-weight: 600;
+}
 .text-left {
     margin-top: 30vh;
     text-align: center; /* Alinhar texto centralmente */
@@ -52,7 +55,7 @@ body {
 .paragrafo2{
     max-width: 100%;
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media (max-width: 768px) {
