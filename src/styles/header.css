@@ -26,9 +26,9 @@ header {
   transition: 0.6s ease all;
     color: #E177FF; /* Cor dos links ao passar o mouse sobre eles */
 }
-  .logo {
-    width: 100px;
-    margin-left: 20px;
+  header img{
+    width: 20px;
+    height: 10px;
   }
   .navbar-dark .navbar-nav .nav-link.current {
     color: #000; /* Altere para a cor desejada */
