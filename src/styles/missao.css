@@ -2,7 +2,11 @@
     margin-bottom: 100px;
     text-align: left; /* Centraliza todo o conteúdo */
 }
-
+.text-missao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 13px;
+}
 .img-missao {
     width: 100%; /* Torna a imagem responsiva */
     max-width: 450px; /* Limita o tamanho máximo da imagem */
@@ -30,13 +34,7 @@
     font-weight: 500;
 }
 
-.circle-image {
-    position: absolute;
-    top: 25%;
-    margin-left: 595px;
-    max-width: 100%; /* ajuste o tamanho conforme necessário */
-    height: auto; /* ajuste o tamanho conforme necessário */
-}
+
 @media (max-width: 768px){
     #missao {
         text-align: center; /* Centraliza todo o conteúdo */
@@ -56,5 +54,10 @@
     .img-missao{
         margin-top: 10px;
         width: 350px;
+    }
+    .text-missao{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
     }
 }

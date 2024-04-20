@@ -20,16 +20,7 @@
     color:#674188;
     font-weight: 700;
 }
-.card {
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  background-color: #ffffff;
-  border: 1px solid #dee2e6;
-  border-radius: 10px;
-  box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.041);
-  padding: 5px;
-}
+
 
 .card-img-top {
   border-radius: 50%;
@@ -43,13 +34,15 @@
 }
 .card {
   width: 100%; /* Alterando a largura para ocupar toda a largura do contêiner pai */
-  max-width: 400px; /* Limitando a largura máxima */
+  max-width: 400px;
+  height: 420px; /* Limitando a largura máxima */
   margin: auto;
   background-color: #ffffff;
   border: 1px solid #dee2e6;
   border-radius: 10px;
   box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.041);
-  padding: 5px;
+  padding: -4px;
+  font-size: 15px;
 }
 
 /* Ajustes para telas menores, como dispositivos móveis */

@@ -9,7 +9,11 @@ html, body{
     overflow-x: hidden;
 }
 body {
-    background-color: #FFF5F5;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .text-left {
@@ -35,7 +39,7 @@ body {
 }
 
 .img-home {
-    max-width: 100%;
+    max-width: 500px;
     margin-top: 25vh;
     margin-bottom: 20px;
 }
@@ -45,7 +49,11 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 300;
 }
-
+.paragrafo2{
+    max-width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
 
 @media (max-width: 768px) {
     .text-principal {
