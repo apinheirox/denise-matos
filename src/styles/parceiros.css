@@ -2,24 +2,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     background-color: #b800ed;
     color: white;
     padding: 20px;
-}
 
-#texto img {
-    margin-right: 10px; /* Adicionando espaçamento entre as imagens */
+}
+#texto .container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+#texto img{
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     #texto {
-        flex-wrap: wrap; /* Permitindo que as imagens quebrem para a próxima linha */
         padding: 20px;
     }
-
+    #texto .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0 auto;
+    }
     #texto img {
-        margin: 5px; /* Adicionando um espaçamento menor entre as imagens */
-        width: 100px; /* Reduzindo o tamanho das imagens para telas menores */
+        margin: 15px auto;
+        max-width: 100px; /* Reduzindo o tamanho das imagens para telas menores */
     }
     
     #texto img:nth-child(2) {

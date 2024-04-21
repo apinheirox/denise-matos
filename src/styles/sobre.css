@@ -68,7 +68,7 @@ ion-icon:hover {
     .sobre-esq {
         width: 100%; /* Define a largura para 100% para ocupar toda a largura da tela */
         text-align: center;
-        margin-top: 0px; /* Centraliza o conteúdo *//* Adiciona um espaço de margem inferior */
+        margin-top: 50px; /* Centraliza o conteúdo *//* Adiciona um espaço de margem inferior */
     }
 
     .img-fluid {
@@ -77,7 +77,7 @@ ion-icon:hover {
     }
 
     .sobre-dir {
-        margin-top: 120px; /* Reduz a margem superior */
+        margin-top: 50px; /* Reduz a margem superior */
     }
 
     .text-sobre {
