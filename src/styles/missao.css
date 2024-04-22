@@ -5,7 +5,7 @@
 }
 .text-missao{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 13px;
 }
 .img-missao {
@@ -42,6 +42,7 @@
     }
     .texto-missao{
         font-size: 35px;
+        
     }
     .h2-missao{
         font-size: 25px;
@@ -60,5 +61,6 @@
         display: grid;
         grid-template-columns: 1fr ;
         gap: 10px;
+        text-align: left;
     }
 }
