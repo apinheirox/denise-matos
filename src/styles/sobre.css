@@ -17,52 +17,38 @@
 .sobre-dir {
     display: flex; /* Torna o container um flex container */
     flex-direction: column; /* Empilha os itens verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente */
+    align-items: left; /* Centraliza os itens horizontalmente */
     margin: 50px auto;
 }
 
 .text-sobre {
     color: #674188;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     font-size: 35px;
 }
 
 .p-sobre {
     color: black;
-    text-align: center;
-    max-width: 450px;
+    text-align: left;
+    max-width: 420px;
     font-weight: 300;
     font-size: 15px;
+    margin-bottom: 7px;
 }
 
 .underline {
     border-bottom: 3px solid #674188;
-    width: 320px;
+    width: 270px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
-.icon {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
 
-ion-icon {
-    font-size: 33px;
-    padding: 20px;
-    color: #674188;
-    cursor: pointer;
-    transition: transform 0.4s;
-    margin-top: -70px;
-}
-
-ion-icon:hover {
-    transform: translateY(-5px);
-}
 @media (max-width: 768px) {
     .sobre {
-        padding: 20px; /* Adiciona um espaço de preenchimento menor para telas menores */
+        padding: 20px;
+        text-align: center; /* Adiciona um espaço de preenchimento menor para telas menores */
     }
     
     .sobre-esq {
@@ -77,15 +63,20 @@ ion-icon:hover {
     }
 
     .sobre-dir {
-        margin-top: 50px; /* Reduz a margem superior */
+        margin-top: 50px;
+        text-align: center; /* Reduz a margem superior */
     }
 
     .text-sobre {
-        font-size: 28px; /* Reduz o tamanho da fonte */
+        font-size: 28px;
+        text-align: center; /* Reduz o tamanho da fonte */
     }
-
+    .p-sobre{
+        text-align: center;
+    }
     .underline {
-        width: 150px; /* Reduz o comprimento da linha de sublinhado */
+        width: 250px;
+        margin: 0px auto 10px; /* Reduz o comprimento da linha de sublinhado */
     }
     .purple-square {
         height: 350px;

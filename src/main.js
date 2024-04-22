@@ -59,3 +59,28 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   //ANIMAÇÕES
   AOS.init();
+
+  // FORMULARIO
+  document.getElementById("enviarWhatsapp").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    // Obter os valores do formulário
+    const nome = document.getElementById("nome").value;
+    const telefone = document.getElementById("telefone").value;
+    const email = document.getElementById("email").value;
+    const mensagem = document.getElementById("mensagem").value;
+
+    // Verificar se os campos estão preenchidos
+    if (nome && telefone && email && mensagem) {
+        // Montar a mensagem
+        const textoMensagem = `Nome: ${nome}%0ATelefone: ${telefone}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+
+        // Redirecionar para o link do WhatsApp com a mensagem
+        const linkWhatsapp = `https://api.whatsapp.com/send?phone=5571985197223&text=${textoMensagem}`;
+        
+        // Abrir o link no WhatsApp
+        window.open(linkWhatsapp, '_blank');
+    } else {
+        alert("Por favor, preencha todos os campos do formulário.");
+    }
+});

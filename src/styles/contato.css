@@ -31,6 +31,9 @@ ol {
 ol li{
     font-size: 15px;
 }
+ion-icon{
+    padding: 14px;
+}
 .icon-cont {
     font-size: 44px;
     color: black;
