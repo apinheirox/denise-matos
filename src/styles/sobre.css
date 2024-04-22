@@ -5,20 +5,20 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    width: 100%;
+    margin: 0 auto;
 }
 
 .img-fluid {
     max-width: 400px;
     box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.445);
     margin-top: 40px;
+    margin: 0 auto;
 }
 
 .sobre-dir {
     display: flex; /* Torna o container um flex container */
     flex-direction: column; /* Empilha os itens verticalmente */
     align-items: left; /* Centraliza os itens horizontalmente */
-    margin: 50px auto;
 }
 
 .text-sobre {
@@ -31,7 +31,7 @@
 .p-sobre {
     color: black;
     text-align: left;
-    max-width: 420px;
+    max-width: 450px;
     font-weight: 300;
     font-size: 15px;
     margin-bottom: 7px;
@@ -48,42 +48,40 @@
 @media (max-width: 768px) {
     .sobre {
         padding: 20px;
-        text-align: center; /* Adiciona um espaço de preenchimento menor para telas menores */
-    }
-    
-    .sobre-esq {
-        width: 100%; /* Define a largura para 100% para ocupar toda a largura da tela */
         text-align: center;
-        margin-top: 50px; /* Centraliza o conteúdo *//* Adiciona um espaço de margem inferior */
-    }
-
-    .img-fluid {
-        width: 80%; /* Reduz a largura da imagem para 80% da largura da tela */
-        margin: 0 auto 20px; /* Centraliza a imagem horizontalmente e adiciona espaço de margem inferior */
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -100px; /* Inverte a ordem dos elementos para telas menores */
     }
 
     .sobre-dir {
+        order: -1; /* Coloca a classe .sobre-dir primeiro quando em layout responsivo */
         margin-top: 50px;
-        text-align: center; /* Reduz a margem superior */
+        text-align: center;
+    }
+
+    .position-relative {
+        order: 1; /* Mantém a imagem em segundo lugar */
+    }
+
+    .img-fluid {
+        width: 80%;
+        margin: 0 auto 20px;
     }
 
     .text-sobre {
         font-size: 28px;
-        text-align: center; /* Reduz o tamanho da fonte */
-    }
-    .p-sobre{
         text-align: center;
     }
+
+    .p-sobre {
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto 10px;
+    }
+
     .underline {
         width: 250px;
-        margin: 0px auto 10px; /* Reduz o comprimento da linha de sublinhado */
-    }
-    .purple-square {
-        height: 350px;
-        margin-top: 0px; /* Reduz a altura do purple-square para telas menores */
-    }
-    ion-icon {
-        font-size: 28px; /* Reduz o tamanho do ícone */
-        padding: 10px; /* Reduz o espaçamento interno */
+        margin: 0 auto 10px;
     }
 }
