@@ -8,7 +8,8 @@
     font-size: 35px;
 }
 #planos .underline{
-    width: 100px;
+    width: 300px;
+    margin-bottom: 30px;
 }
 #planos .container{
     display: grid;
@@ -64,5 +65,17 @@
     #planos .container{
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+    #planos h1{
+        color: #674188;
+        font-weight: 700;
+        font-size: 35px;
+        max-width: 450px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #planos .underline{
+        width: 200px;
+        margin-bottom: 30px;
     }
   }
