@@ -1,0 +1,68 @@
+#planos{
+    margin-top: 100px;
+    text-align: center;
+}
+#planos h1{
+    color: #674188;
+    font-weight: 700;
+    font-size: 35px;
+}
+#planos .underline{
+    width: 100px;
+}
+#planos .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-plano {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.288);
+    max-width: 310px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .card-plano h2 {
+    color: #333;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .subtitulo {
+    color: #666;
+    font-size: 14px;
+  }
+  .preco{
+    font-weight:700;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+  }
+  .card-premium{
+    box-shadow: 0 2px 4px 5px #ba00ed34;
+  }
+  .btn-planos {
+    display: inline-block;
+    background-color: #B800ED;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: all 0.5s ease
+  }
+  
+  .btn-planos:hover {
+    transition: all 0.5s ease;
+    background-color: #674188;
+    color: white;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px){
+    #planos .container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+  }
