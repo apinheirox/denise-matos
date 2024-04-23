@@ -14,13 +14,14 @@
 #planos .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
 }
 .card-plano {
     background-color: #fff;
     border-radius: 8px;
-    padding: 20px;
+    padding: 17px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.288);
-    max-width: 310px;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
   }
@@ -33,12 +34,7 @@
   
   .subtitulo {
     color: #666;
-    font-size: 14px;
-  }
-  .preco{
-    font-weight:700;
-    color: rgb(26, 26, 26);
-    font-size: 16px;
+    font-size: 13px;
   }
   .card-premium{
     box-shadow: 0 2px 4px 5px #ba00ed34;
