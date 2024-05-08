@@ -25,14 +25,14 @@ header {
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   transition: 0.6s ease all;
-    color: #E177FF; /* Cor dos links ao passar o mouse sobre eles */
+    color: #E177FF;
 }
   header img{
     width: 20px;
     height: 10px;
   }
   .navbar-dark .navbar-nav .nav-link.current {
-    color: #000; /* Altere para a cor desejada */
+    color: #000;
   }
   .nav-link {
     text-decoration: none;
@@ -48,7 +48,7 @@ header {
   }
   
   .btn-home {
-    background-color: #674188; /* Alterado de 'none' para 'transparent' */
+    background-color: #674188;
     border: 1px solid #00000079;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -63,7 +63,7 @@ header {
     transition: margin-left 0.3s;
     padding: 20px;
   }
-  /* Estilos adicionais para melhorar a aparência */
+  
   body {
     overflow-x: hidden;
   }
@@ -72,17 +72,17 @@ header {
   }
   @media (max-width: 768px) {
     .nav-link {
-      font-size: 12px; /* Reduz o tamanho do texto dos links para telas menores */
+      font-size: 12px;
     }
     .logo {
-      width: 70px; /* Reduz a largura da logo para telas menores */
+      width: 70px;
     }
     .navbar-toggler-icon {
       filter: invert(100%);
-      font-size: 25px; /* Inverte as cores do ícone */
+      font-size: 25px;
   }
     header {
-      height: auto; /* Altura automática para acomodar o conteúdo */
-      padding-bottom: 20px; /* Adiciona um espaço na parte inferior do header */
+      height: auto;
+      padding-bottom: 20px;
     }
   }

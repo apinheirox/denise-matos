@@ -7,9 +7,9 @@
     margin-top: 100px;
     width: 100%;
     height: 100%;
-    padding: 50px; /* Adiciona um espaço interno para telas menores */
+    padding: 50px;
     flex-direction: column;
-    ; /* Altera a direção do layout para empilhar verticalmente */
+    ;
 }
 
 .div-container {
@@ -22,7 +22,7 @@
     font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
-     /* Adiciona espaço inferior para telas menores */
+    
 }
 #magica .carousel-indicators{
     margin: -20px;
@@ -46,11 +46,11 @@
 
 @media (max-width: 768px) {
     .magica {
-        flex-direction: row; /* Restaura a direção do layout para exibir em linha */
+        flex-direction: row;
         padding: 0;
         border-radius: 0%;
         text-align: center;
-        height: 100%; /* Remove o espaço interno */
+        height: 100%;
     }
     .text-magica{
         font-size: 30px;
@@ -65,12 +65,12 @@
         margin-bottom: 0px;
         text-align: center;
         align-items: center;
-        justify-content: center; /* Remove o espaço inferior */
+        justify-content: center;
     }
 
     .img-magica {
         margin-top: 20px;
         margin-right: 20px;
-        width: 100%;/* Adiciona espaçamento à direita entre as imagens */
+        width: 100%;
     }
 }

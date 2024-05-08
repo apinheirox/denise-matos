@@ -1,9 +1,9 @@
 #contato {
-    padding-top: 100px; /* Adiciona espaço acima da seção */
-    margin: auto; /* Centraliza horizontalmente */
-    margin-top: 20px; /* Ajusta a margem superior */
+    padding-top: 100px; 
+    margin: auto; 
+    margin-top: 20px;
     max-width: 1000px;
-    background-color: #fff; /* Limita a largura máxima */
+    background-color: #fff;
 }
 
 .contato-esq {
@@ -21,7 +21,7 @@
 .contato-esq div {
     display: flex;
     align-items: center;
-    flex-direction: row; /* Altera a direção para coluna vertical */
+    flex-direction: row;
 }
 ol {
     list-style-type: circle;
@@ -48,7 +48,7 @@ form a{
     justify-content: center;
     background-color: #B800ED;
     color: white;
-    display: flex; /* Adiciona display flex */
+    display: flex;
     transition: 0.6s all;
     text-decoration: none;
     list-style: none;
@@ -62,12 +62,12 @@ form {
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #97979759;
-    width: 450px; /* Largura do formulário */
+    width: 450px;
     height: 550px;
     box-shadow: 10px 10px 5px #00000018;
-    display: flex; /* Adiciona display flex */
-    flex-direction: column; /* Altera a direção para coluna vertical */
-    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .form-group textarea{
     max-height: 100px;
@@ -96,7 +96,7 @@ form {
 
 .contato-dir {
     display: flex;
-    justify-content: flex-end; /* Alinha o formulário à direita */
+    justify-content: flex-end;
 }
 
 .contato-info {
@@ -124,7 +124,7 @@ form {
 .icon-call,
 .icon-instagram {
     color: #674188;
-    margin-left: -20px; /* Define a cor das redes sociais */
+    margin-left: -20px;
 }
 .circle{
     text-align: right;
@@ -133,12 +133,12 @@ form {
     margin-top: -400px;
 }
 
-@media (max-width: 767px) { /* Estilos para telas menores */
+@media (max-width: 767px) {
     #contato {
         padding-top: 20px;
-        margin: auto; /* Centraliza horizontalmente */
-        margin-top: 50px; /* Ajusta a margem superior */
-        padding: 0 20px; /* Adiciona um espaçamento lateral */
+        margin: auto;
+        margin-top: 50px;
+        padding: 0 20px;
     }
     #contato .linha-2{
         width: 200px;
@@ -162,12 +162,12 @@ form {
 
     .contato-dir {
         margin-top: 20px;
-        justify-content: flex-start; /* Alinha o formulário ao início */
+        justify-content: flex-start;
     }
 
     form {
-        width: auto; /* Define a largura automática para preencher toda a largura do contêiner */
-        max-width: 100%; /* Define a largura máxima para a largura do contêiner */
+        width: auto;
+        max-width: 100%;
     }
 }
 

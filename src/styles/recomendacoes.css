@@ -37,9 +37,9 @@
   text-align: center;
 }
 .card {
-  width: 100%; /* Alterando a largura para ocupar toda a largura do contêiner pai */
+  width: 100%;
   max-width: 450px;
-  height: 350px; /* Limitando a largura máxima */
+  height: 350px;
   margin: auto;
   padding: 5px;
   background-color: #ffffff;
@@ -49,12 +49,12 @@
   font-size: 14px;
 }
 
-/* Ajustes para telas menores, como dispositivos móveis */
+
 @media (max-width: 767px) {
   .carousel-item .row.justify-content-center {
-      display: flex; /* Ativando flexbox para a linha */
-      flex-wrap: wrap; /* Permitindo que os itens quebrem para a próxima linha */
-      justify-content: center; /* Centralizando os itens */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
   }
   .p-recomend{
     text-align: center;
@@ -69,27 +69,27 @@
     display: none;
   }
   .carousel-item .col-md-4 {
-      width: 100%; /* Definindo a largura total para ocupar a largura do contêiner pai */
-      max-width: 400px; /* Limitando a largura máxima dos cards */
-      margin-bottom: 20px; /* Adicionando espaço entre os cards */
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
   }
 }
-/* Alterando a cor apenas do ícone do botão de navegação anterior */
+
 .carousel-control-prev-icon {
-  filter: invert(100%); /* Inverter a cor do ícone para preto */
+  filter: invert(100%);
 }
 
-/* Alterando a cor apenas do ícone do botão de navegação seguinte */
+
 .carousel-control-next-icon {
-  filter: invert(100%); /* Inverter a cor do ícone para preto */
+  filter: invert(100%);
 }
 
-/* Estilizando a seta esquerda */
+
 .carousel-control-prev {
   left: -30px;
 }
 
-/* Estilizando a seta direita */
+
 .carousel-control-next {
   right: -30px;
 }

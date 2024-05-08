@@ -1,5 +1,5 @@
 #servico {
-    padding: 20px; /* Adiciona um pouco de espaço interno */
+    padding: 20px;
     text-align: center;
     margin-top: -100px;
 }
@@ -31,16 +31,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Permitindo que os itens quebrem para a próxima linha */
-    margin: 20px auto; /* Centraliza a seção */
+    flex-wrap: wrap;
+    margin: 20px auto;
     padding: auto;
 }
 
 .servico-card {
     width: 300px;
-    height: 300px; /* Divide em 3 colunas */
+    height: 300px;
     padding: 15px;
-    box-sizing: border-box; /* Considera padding e border dentro do tamanho total */
+    box-sizing: border-box;
     text-align: center;
     border-radius: 30px;
     background-color: #ffffff;
@@ -69,7 +69,7 @@
 
 @media (max-width: 768px) {
     .servicos {
-        gap: 30px; /* Adicionando espaçamento entre os itens */
+        gap: 30px;
     }
 
     #servico {
@@ -78,17 +78,17 @@
     }
 
     .servico-card {
-        width: calc(70% - 20px); /* Fazendo com que os itens ocupem metade da largura da tela */
+        width: calc(70% - 20px);
         height: auto;
-        margin: 10px auto; /* Centralizando os itens */
+        margin: 10px auto;
     }
 
     .servico-card img {
-        max-width: 100px; /* Reduz a largura da imagem para telas menores */
+        max-width: 100px;
     }
 
     .h2-servicos {
-        font-size: 18px; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 18px;
     }
 
     .linha-2 {
@@ -97,7 +97,7 @@
 
     .text-servicos {
         width: 100%;
-        font-size: 30px; /* Defina a largura como 100% para ocupar todo o espaço disponível */
-        margin-top: 100px; /* Ajusta o espaçamento superior */
+        font-size: 30px; 
+        margin-top: 100px; 
     }
 }

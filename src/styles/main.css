@@ -21,7 +21,7 @@ body {
 }
 .text-left {
     margin-top: 30vh;
-    text-align: center; /* Alinhar texto centralmente */
+    text-align: center;
 }
 
 #principal {
@@ -76,10 +76,10 @@ body {
     }
 
     .img-home {
-        text-align: center; /* Centralizar horizontalmente */
+        text-align: center;
         max-width: 100%;
         margin-top: 100px;
-        margin: 0 auto; /* Centralizar horizontalmente */
+        margin: 0 auto;
     }
     
     #texto h1 {

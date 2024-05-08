@@ -27,10 +27,10 @@ footer .container {
   font-weight: 400;
 }
 
-/* Ajustes para telas menores, como dispositivos móveis */
+
 @media (max-width: 767px) {
   footer {
-      margin-top: 30px; /* Reduzindo a margem superior para telas menores */
+      margin-top: 30px;
   }
   
   footer .container {

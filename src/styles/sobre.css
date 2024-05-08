@@ -16,9 +16,9 @@
 }
 
 .sobre-dir {
-    display: flex; /* Torna o container um flex container */
-    flex-direction: column; /* Empilha os itens verticalmente */
-    align-items: left; /* Centraliza os itens horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
 .text-sobre {
@@ -51,17 +51,17 @@
         text-align: center;
         display: flex;
         flex-direction: column-reverse;
-        margin-top: -100px; /* Inverte a ordem dos elementos para telas menores */
+        margin-top: -100px;
     }
 
     .sobre-dir {
-        order: -1; /* Coloca a classe .sobre-dir primeiro quando em layout responsivo */
+        order: -1;
         margin-top: 50px;
         text-align: center;
     }
 
     .position-relative {
-        order: 1; /* Mantém a imagem em segundo lugar */
+        order: 1;
     }
 
     .img-fluid {
