@@ -2,6 +2,10 @@
     padding: 20px;
     text-align: center;
     margin-top: -100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-servicos {
@@ -27,26 +31,20 @@
     margin-bottom: 20px;
 }
 
-.servicos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px auto;
-    padding: auto;
-}
+
 
 .servico-card {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     padding: 15px;
+    flex-direction: row;
     box-sizing: border-box;
     text-align: center;
     border-radius: 30px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.11);
+    box-shadow: 0 1px 8px rgba(255, 27, 255, 0.699);
     transition: transform 0.3s ease;
-    margin: 10px;
+    margin: 20px;
 }
 
 .servico-card:hover {

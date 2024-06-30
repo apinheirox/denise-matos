@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center ;
     margin-top: 100px;
+    margin: 0 auto;
     background-color: #fff;
 }
 .p-recomend{
@@ -14,9 +15,7 @@
     margin-bottom: 50px;
 
 }
-#recomend .carousel-indicators{
-  margin: -100px;
-}
+
 .text-recomend{
     color:#674188;
     font-weight: 700;
@@ -38,14 +37,14 @@
 }
 .card {
   width: 100%;
-  max-width: 450px;
+  max-width: 300px;
   height: 350px;
-  margin: auto;
+  margin: 0 auto;
   padding: 5px;
   background-color: #ffffff;
   border: 1px solid #dee2e6;
   border-radius: 10px;
-  box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.041);
+  box-shadow: 3px 2px 3px rgba(255, 27, 255, 0.473);
   font-size: 14px;
 }
 
@@ -86,10 +85,10 @@
 
 
 .carousel-control-prev {
-  left: -30px;
+  left: -50px;
 }
 
 
 .carousel-control-next {
-  right: -30px;
+  right: -50px;
 }
